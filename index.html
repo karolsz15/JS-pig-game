@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+        <title>Pig Game by Karol Szpek</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "hold": </br></br>
+
+                If the player rolls a 1, they score nothing and it becomes the next player's turn. </br></br>
+                If the player rolls any other number, it is added to their turn total and the player's turn continues. </br></br>
+                If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn. </br></br>
+            
+            The first player to score set amount of points (or more) wins.
+            For example, the first player, Donald, begins a turn with a roll of 5.
+            Donald could hold and score 5 points, but chooses to roll again.
+            Donald rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again.
+            Donald rolls a 1, and must end his turn without scoring.
+            The next player, Alexis, rolls the sequence 4-5-3-5-5, after which she chooses to hold,
+            and adds her turn total of 22 points to her score.
+            <img src="./img/rules200px.png" class="rules">
+        </div>
+    </div>
+            
+                <div class="player-0-panel active">
+                    <div class="player-name" id="name-0">Player 1</div>
+                    <div class="player-score" id="score-0">43</div>
+                    <div class="player-current-box" id="player-current-box-0">
+                        <div class="player-current-label">Current</div>
+                        <div class="player-current-score" id="current-0">11</div>
+                    </div>
+                </div>
+            
+                <div class="player-1-panel">
+                    <div class="player-name" id="name-1">Player 2</div>
+                    <div class="player-score" id="score-1">72</div>
+                    <div class="player-current-box" id="player-current-box-1">
+                        <div class="player-current-label">Current</div>
+                        <div class="player-current-score" id="current-1">0</div>
+                    </div>
+                </div>
+            
+            <button class="show-rules" id="myBtn"><span class="iconify" data-icon="whh:piggybank" data-inline="false"></span>
+                 Rules</a></button>
+                    
+            <button class="btn-new"><span class="iconify" data-icon="vs:pig" data-inline="false"></span> New game</button>
+
+            <button class="btn-roll"><span class="iconify" data-icon="fa-solid:dice-d6" data-inline="false"></span> Roll dices</button>
+                    
+            <button class="btn-hold"><span class="iconify" data-icon="fa-solid:piggy-bank" data-inline="false"></span> Hold</button>
+                
+            <input type="text" placeholder="Set final score" class="final-score">
+               
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice-1">
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice-2">
+            
+            <div class="footer1">
+                    Copyright &copy; 2019 Karol Szpek  
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/karolsz15" class="tm-contact-item-link">
+                        <span class="iconify" data-icon="zmdi:github-box" data-inline="false"></span>
+                        <span class="mb-0"><span class="footer3"> GitHub  </span></span></a>
+
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karol-szpek/">
+                        <span class="iconify" data-icon="brandico:linkedin-rect" data-inline="false"></span>
+                        <span class="mb-0"><span class="footer3"> LinkedIn </span></span></a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karol-szpek/">
+
+                        <span class="iconify" data-icon="entypo:info-with-circle" data-inline="false"></span>
+                        <span class="mb-0"></span></a>
+                        <!-- background image visible on large screen only, so no credits for author on smaller screens - footer2 -->
+                        <span class="footer2">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.freepik.com/free-photos-vectors/banner"> Background by katemangostar /</a>
+                        </span>
+                        <a target="_blank" rel="noopener noreferrer" href="https://iconify.design/about/">Icons by iconify.design </a>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
