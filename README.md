@@ -16,19 +16,23 @@ I made many adjustments in the app to be responsive (removed background image, h
  changed font sizes, moved gaming dices' pictures significantlly, changed paddings and margins etc).
 It works properly on tablets (e.g. iPad's screen resolition) and mobile phones (e.g. iPhone 6/7/8 screen resolutions).
 
-
+1. Desktop view
 ![Alt text](/screenshots/desktop1.png?raw=true "Desktop view")
 ![Alt text](/screenshots/desktop2.png?raw=true "Desktop view")
 
+2. Tabet horizontal view
 ![Alt text](/screenshots/tablet-horizontal1.png?raw=true "Tabet horizontal view")
 ![Alt text](/screenshots/tablet-horizontal2.png?raw=true "Tabet horizontal view")
 
+3. Tablet vertical view
 ![Alt text](/screenshots/tablet-vertical1.png?raw=true "Tablet vertical view")
 ![Alt text](/screenshots/tablet-vertical2.png?raw=true "Tablet vertical view")
 
+4. Mobile phone horizontal view
 ![Alt text](/screenshots/phone-horizontal1.png?raw=true "Mobile phone horizontal view")
 ![Alt text](/screenshots/phone-horizontal2.png?raw=true "Mobile phone horizontal view")
 
+5. Mobile phone vertical view
 ![Alt text](/screenshots/phone-vertical1.png?raw=true "Mobile phone vertical view")
 ![Alt text](/screenshots/phone-vertical2.png?raw=true "Mobile phone vertical view")
 
