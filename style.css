@@ -262,7 +262,7 @@ i {
 
 /**** TABLET HORIZONTAL****/
 
-@media all and (max-width: 1025px) {
+@media all and (max-width: 1200px) {
     body {
         background-image: none;
         height: 100vh;
@@ -379,7 +379,7 @@ i {
 }
 
 /***** TABLET VERTICAL *****/
-@media all and (max-width: 1024px) {
+@media all and (max-width: 992px) {
 
     .rules {
         display: block;
@@ -409,7 +409,7 @@ i {
 }
 
 /***** PHONE HORIZONTAL *****/
-@media all and (max-width: 768px) {
+@media all and (max-width: 760px) {
 
     button {
         font-size: 1em;
@@ -452,7 +452,7 @@ i {
 }
 
 /***** PHONE VERTICAL *****/
-@media all and (max-width: 480px) {
+@media all and (max-width: 576px) {
 
     body {
         background-image: none;
