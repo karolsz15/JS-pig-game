@@ -389,7 +389,8 @@ i {
         background-image: url(./img/winner300px.jpg);
         background-size: auto;  
     }
-    .winner .player-name { margin-top: -2em; }
+    
+    .winner .player-name { margin-top: 0.2em; }
     .winner .player-score { margin-top: 3em; }
     
     .player-current-box {
