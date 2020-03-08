@@ -314,8 +314,8 @@ i {
         background-size: auto;  
     }
 
-    .winner .player-name {margin-top: -0.5em; }
-    .winner .player-score { margin-top: -0.4em; }
+    .winner .player-name {margin-top: 0; }
+    .winner .player-score { margin-top: 0; }
 }
 
 
@@ -390,6 +390,10 @@ i {
     
     .final-score {
         bottom: 3em;
+    }
+
+    .player-0-panel, .player-1-panel {
+    padding: 1em;
     }
 }
 
