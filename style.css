@@ -350,6 +350,10 @@ i {
     .winner { 
         background-image: url(./img/winner360px.jpg);
         background-size: auto;  
+    }
+
+    .active .player-name::before {
+        content: url(./img/piggy20px.png)
       }
       
 }
@@ -372,10 +376,6 @@ i {
         left: 0;
         top: 0;
         font-size: 1em;
-    }
-
-    .active .player-name::before {
-        content: url(./img/piggy20px.png);
     }
 
     .dice {
