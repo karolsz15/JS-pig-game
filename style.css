@@ -100,8 +100,8 @@ body {
 
 .final-score:focus { outline: none; }
 
-a {color:#FF0000;
-  text-decoration: none;} /* Unvisited link  */
+a {color:#555;
+  text-decoration: underline;} /* Unvisited link  */
 a:visited {color:#555;
   text-decoration: none;} /* Visited link    */
 a:hover {color:#555;
