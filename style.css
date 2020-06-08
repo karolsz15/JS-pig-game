@@ -376,7 +376,6 @@ i {
         left: 0;
         top: 0;
         font-size: .95em;
-        overflow-y: scroll;
         padding: .5em;
     }
 
@@ -405,6 +404,12 @@ i {
 
     .player-0-panel, .player-1-panel {
     padding: 1em;
+    }
+
+    .footer1 {
+        position: absolute;
+        left: 50%;
+        bottom: .2em;
     }
 }
 
@@ -476,11 +481,5 @@ i {
 
     .footer3 {
         display: none;
-    }
-
-    .footer1 {
-        position: absolute;
-        left: 50%;
-        bottom: .2em;
     }
 }
