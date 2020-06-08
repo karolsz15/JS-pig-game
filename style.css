@@ -434,11 +434,6 @@ i {
         overflow: visible;
     }
 
-    .modal-content {
-        font-size: .9em;
-        overflow-y: scroll;
-    }
-
     .player-0-panel,
     .player-1-panel {
         width: 50%;
@@ -481,5 +476,11 @@ i {
 
     .footer3 {
         display: none;
+    }
+
+    .footer1 {
+        position: absolute;
+        left: 50%;
+        bottom: .2em;
     }
 }
