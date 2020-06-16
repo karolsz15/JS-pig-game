@@ -1,3 +1,5 @@
+LIVE: https://karolsz15.github.io/JS-pig-game/
+
 The game rules are below:
 
 1. Two players take part in the game, they roll their dices in rounds 
