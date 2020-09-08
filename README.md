@@ -1,4 +1,8 @@
-LIVE: https://karolsz15.github.io/JS-pig-game/
+# The pig game
+
+## 1. LIVE DEMO: https://karolsz15.github.io/JS-pig-game/
+
+## 2. DESCRIPTION
 
 The game rules are below:
 
@@ -7,7 +11,6 @@ The game rules are below:
 3. BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
 4. The player can choose to 'HOLD' the score, which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn
 5. The first player WHO reaches set amount of points in his GLOBAL score wins the game
-
 
 Script was written in pure JavaScript, without using any JS framework. I used querySelector.addEventListener methods to manipulate the DOM. 
 Various anonymous functions are run depending on which button is pressed.
@@ -18,24 +21,26 @@ I made many adjustments in the app to be responsive (removed background image, h
  changed font sizes, moved gaming dices' pictures significantlly, changed paddings and margins etc).
 It works properly on tablets (e.g. iPad's screen resolition) and mobile phones (e.g. iPhone 6/7/8 screen resolutions).
 
-1. Desktop view
-![Alt text](/screenshots/desktop1.png?raw=true "Desktop view")
-![Alt text](/screenshots/desktop2.png?raw=true "Desktop view")
+## 3. SCREENSHOTS:
 
-2. Tabet horizontal view
-![Alt text](/screenshots/tablet-horizontal1.png?raw=true "Tabet horizontal view")
-![Alt text](/screenshots/tablet-horizontal2.png?raw=true "Tabet horizontal view")
+### 1. Desktop views
+<img src="screenshots/desktop1.png" alt="desktop view" height="50%"/>
+<img src="screenshots/desktop2.png" alt="desktop view" height="50%"/> <hr/>
 
-3. Tablet vertical view
-![Alt text](/screenshots/tablet-vertical1.png?raw=true "Tablet vertical view")
-![Alt text](/screenshots/tablet-vertical2.png?raw=true "Tablet vertical view")
+### 2. Tablet horizontal views
+<img src="screenshots/tablet-horizontal1.png" alt="Tabet horizontal view" height="50%"/>
+<img src="screenshots/tablet-horizontal2.png" alt="Tabet horizontal view" height="50%"/> <hr/>
 
-4. Mobile phone horizontal view
-![Alt text](/screenshots/phone-horizontal1.png?raw=true "Mobile phone horizontal view")
-![Alt text](/screenshots/phone-horizontal2.png?raw=true "Mobile phone horizontal view")
+### 3. Tablet vertical views
+<img src="screenshots/tablet-vertical1.png" alt="Tabet vertical view" height="50%"/>
+<img src="screenshots/tablet-vertical2.png" alt="Tabet vertical view" height="50%"/> <hr/>
 
-5. Mobile phone vertical view
-![Alt text](/screenshots/phone-vertical1.png?raw=true "Mobile phone vertical view")
-![Alt text](/screenshots/phone-vertical2.png?raw=true "Mobile phone vertical view")
+### 4. Mobile phone - landsape views
+<img src="screenshots/phone-horizontal1.png" alt="Mobile phone horizontal view" height="50%"/>
+<img src="screenshots/phone-horizontal2.png" alt="Mobile phone horizontal view" height="50%"/> <hr/>
+
+### 5. Mobile phone - portrait views
+<img src="screenshots/phone-verical1.png" alt="Mobile phone horizontal view" height="50%"/>
+<img src="screenshots/phone-verical1.png" alt="Mobile phone horizontal view" height="50%"/> <hr/>
 
 
