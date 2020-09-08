@@ -32,15 +32,15 @@ It works properly on tablets (e.g. iPad's screen resolition) and mobile phones (
 <img src="screenshots/tablet-horizontal2.png" alt="Tabet horizontal view" height="50%"/> <hr/>
 
 ### 3. Tablet vertical views
-<img src="screenshots/tablet-vertical1.png" alt="Tabet vertical view" height="50%"/>
-<img src="screenshots/tablet-vertical2.png" alt="Tabet vertical view" height="50%"/> <hr/>
+<img src="screenshots/tablet-vertical1.png" alt="Tabet vertical view" width="50%"/>
+<img src="screenshots/tablet-vertical2.png" alt="Tabet vertical view" width="50%"/> <hr/>
 
 ### 4. Mobile phone - landsape views
 <img src="screenshots/phone-horizontal1.png" alt="Mobile phone horizontal view" height="50%"/>
 <img src="screenshots/phone-horizontal2.png" alt="Mobile phone horizontal view" height="50%"/> <hr/>
 
 ### 5. Mobile phone - portrait views
-<img src="screenshots/phone-verical1.png" alt="Mobile phone horizontal view" height="50%"/>
-<img src="screenshots/phone-verical1.png" alt="Mobile phone horizontal view" height="50%"/> <hr/>
+<img src="screenshots/phone-vertical1.png" alt="Mobile phone horizontal view" width="50%"/>
+<img src="screenshots/phone-vertical1.png" alt="Mobile phone horizontal view" width="50%"/> <hr/>
 
 
