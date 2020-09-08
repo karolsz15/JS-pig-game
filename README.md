@@ -41,6 +41,6 @@ It works properly on tablets (e.g. iPad's screen resolition) and mobile phones (
 
 ### 5. Mobile phone - portrait views
 <img src="screenshots/phone-vertical1.png" alt="Mobile phone horizontal view" width="50%"/>
-<img src="screenshots/phone-vertical1.png" alt="Mobile phone horizontal view" width="50%"/> <hr/>
+<img src="screenshots/phone-vertical2.png" alt="Mobile phone horizontal view" width="50%"/> <hr/>
 
 
