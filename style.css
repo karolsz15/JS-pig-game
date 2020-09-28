@@ -32,8 +32,8 @@ body {
     overflow: visible;
 }
 
- /* The Modal (background) */
- .modal {
+/* The Modal (background) */
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -43,44 +43,43 @@ body {
     height: 100%;
     overflow: visible;
     background-color: rgba(0,0,0,0.6);
-  }
+}
   
-  /* Modal Content/Box */
-  .modal-content {
+/* Modal Content/Box */
+.modal-content {
     background-color: #fefefe;
     padding: 20px;
     border: 1px solid #888;
     width: 100%;
     height: 100%;
     font-size: 1.1em;
-  }
+}
   
-  /* The Modal Close Button */
-  .close {
+/* The Modal Close Button */
+.close {
     color: #aaa;
     float: right;
     font-size: 3em;
     font-weight: bold;
-  }
+}
 
-  .rules {
-      float: right;
-  }
+.rules {
+    float: right;
+}
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  } 
-
-  /* end of modal */
+} 
+/* end of modal */
 
 .player-0-panel,
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 100%;
+    height: 95vh;
     padding: 5em;
 }
 
@@ -166,7 +165,7 @@ footer1:hover i { margin-right: 1em; }
 
 .active .player-name::before {
     content: url(./img/piggy40px.png)
-  }
+}
 
 .player-current-box {
     background-color: #EB4D4D;
@@ -259,7 +258,6 @@ i {
     margin-top: 3.5em; 
 }
 
-
 /**** TABLET HORIZONTAL****/
 
 @media all and (max-width: 1200px) {
@@ -276,7 +274,6 @@ i {
         top: 50vh;
         left: 50vw;
     }
-
 
     .modal-content {
         position: relative;
@@ -322,8 +319,6 @@ i {
     }
 }
 
-
-
 /***** TABLET VERTICAL *****/
 @media all and (max-width: 992px) {
 
@@ -354,8 +349,61 @@ i {
 
     .active .player-name::before {
         content: url(./img/piggy20px.png)
-      }
-      
+    }   
+}
+
+/* PHONES WITH LARGE SCREENS HORIZONTAL */
+@media(max-width:992px) and (max-height: 450px) {
+    button {
+        font-size: 1em;
+    }
+    
+    .rules {
+        display: none;
+    }
+
+    .modal-content {
+        position: relative;
+        width: 100%; 
+        height: 100%;
+        left: 0;
+        top: 0;
+        font-size: 1.1em;
+        padding: 1em;
+    }
+
+    .dice {
+        height: 6em;
+    }
+
+    #dice-1 { left: 40vw; top: 25vh; }
+    #dice-2 { left: 55vw; top: 25vh; }
+
+    .winner { 
+        background-image: url(./img/winner300px.jpg);
+        background-size: auto;  
+    }
+    
+    .winner .player-name { margin-top: 0.2em; }
+    .winner .player-score { margin-top: 3em; }
+    
+    .player-current-box {
+        width: 50%;
+    }
+
+    .final-score {
+        bottom: 3em;
+    }
+
+    .player-0-panel, .player-1-panel {
+    padding: 1em;
+    }
+
+    .footer1 {
+        position: absolute;
+        left: 50%;
+        bottom: .2em;
+    }
 }
 
 /***** PHONE HORIZONTAL *****/
@@ -375,8 +423,8 @@ i {
         height: 100%;
         left: 0;
         top: 0;
-        font-size: .95em;
-        padding: .5em;
+        font-size: 1em;
+        padding: 1em;
     }
 
     .dice {
@@ -413,6 +461,15 @@ i {
     }
 }
 
+
+/* PHONE VERTICAL FOR LARGE SCREENS */
+@media(max-width:576px) and (min-height: 700px) {
+    .modal-content {
+        font-size: 1.4em;
+        padding: 5em 1em;
+    }
+}
+
 /***** PHONE VERTICAL *****/
 @media all and (max-width: 576px) {
 
@@ -426,7 +483,6 @@ i {
         overflow: hidden;
     }
 
-
     .wrapper {
         font-size: 1em;
         width: 95vw;
@@ -439,12 +495,15 @@ i {
         overflow: visible;
     }
 
+    .modal-content {
+        font-size: 1.1em;
+    }
+
     .player-0-panel,
     .player-1-panel {
         width: 50%;
         float: left;
         padding: 15vh 4vw;
-
     }
 
     .player-name {
