@@ -79,7 +79,7 @@ body {
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 95vh;
+    / * height: 95vh; */
     padding: 5em;
 }
 
